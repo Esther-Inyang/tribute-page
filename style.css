@@ -57,8 +57,10 @@ body{
 }
 
 #img-div img{
+    margin: 0 auto;
+    display: block;
+    max-width: 40%;
     height: auto;
-    width: 50%;
     border-radius: 5px;
     box-shadow: 0 20px 30px #ffffff;
 }
@@ -151,14 +153,14 @@ body{
     margin-bottom: 80px;
 }
 
-#tribute-link p{
+#more-tribute p{
     font-weight: 600;
     font-family: sans-serif;
     font-size: 18px;
     font-style: oblique;
 }
 
-#tribute-link a{
+#more-tribute a{
     color: #0794ab;
 }
 
